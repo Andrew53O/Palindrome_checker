@@ -1,18 +1,20 @@
 
 0. bikin minimal yang code bisa jalan dulu lebih bagus sih 
-entar baru tambah tambah fitur dibawah
+entar baru tambah tambah fitur dibawah ✔
+
+bikin 'see how's it coded =' 
+
 0.1
 tambah buat history
 jadi coba buat backend 
-1. bikin 2 mode
 
-semcam persegi panjang yang bisa ditoggle di two mode
-a. short
-buat input text yang penting
+buat mode dari saran ko steven 
+1. listener jadi tiap orang input dia bakal ke detect
+2. buat tanpa button, pakek enter 
+3. yang sekarang
+    3.1 buat input text yang pendek
+    3.2 buat input text yang panjang
 
-
-b. long
-buat yang lebih panjang
 
 
 
@@ -42,4 +44,5 @@ balik page awal
 
 
 5. jadinya website
+
 
