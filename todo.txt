@@ -1,0 +1,45 @@
+
+0. bikin minimal yang code bisa jalan dulu lebih bagus sih 
+entar baru tambah tambah fitur dibawah
+0.1
+tambah buat history
+jadi coba buat backend 
+1. bikin 2 mode
+
+semcam persegi panjang yang bisa ditoggle di two mode
+a. short
+buat input text yang penting
+
+
+b. long
+buat yang lebih panjang
+
+
+
+
+2. bikin tombol enter
+
+a. klo dia palindomoe
+
+bordernya jadi warna ijo
+
+b. klo di not palindrome
+
+bordernya jadi merah
+
+
+3.bikin tombol try again abis lese check palindrome
+
+balik page awal
+
+
+
+
+4. bikin text kecil dibawah buat source code
+
+
+
+
+
+5. jadinya website
+
