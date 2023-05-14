@@ -9,9 +9,6 @@ clicking twice
 
 
 
-
-
-
 0. bikin minimal yang code bisa jalan dulu lebih bagus sih 
 entar baru tambah tambah fitur dibawah ✔
 
