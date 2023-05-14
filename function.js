@@ -55,8 +55,45 @@ function try_again()
 
 // change input mode
 
-const changeInput = document.getElementsByClassName("change_input");
+// Execute after DOM fully loads
+window.addEventListener("DOMContentLoaded", (event) =>
+{
+  // need index, since it returns an array
+  const changeInput = document.getElementsByClassName("change_input")[0];
 
-console.log(changeInput);
+  console.log(changeInput);
+
+
+  changeInput.addEventListener("click", switchInput);
+
+  // change from submit -> enter
+  function switchInput()
+  {
+    // to do change input only using enter 
+    // display:none
+    const makeNone = document.getElementById("input_v1");
+
+    // get the default input
+    const canEnter = document.getElementById("input-field");
+
+    console.log(makeNone);
+
+    makeNone.style.display = "none";
+
+    canEnter.addEventListener("keydown", (the_key) =>
+    {
+      // keyCode properties deprecated, but it is still works, it works
+      if(the_key.key == "Enter")
+      {
+        // 
+        get_user_input();
+      }
+    }) 
+  }
+
+
+  // change from enter -> submit
+  // coming soon
+})
 
 

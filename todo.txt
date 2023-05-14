@@ -1,8 +1,25 @@
 
+1. While can change input mode but will returns to default
+after refreshing
+
+a. change input mode cannot chagne back to the default after 
+clicking twice
+
+
+
+
+
 0. bikin minimal yang code bisa jalan dulu lebih bagus sih 
 entar baru tambah tambah fitur dibawah ✔
 
 bikin 'see how's it coded =' 
+
+
+change input mode palign penting dulu
+
+baru dark mode
+
+
 
 0.1
 tambah buat history

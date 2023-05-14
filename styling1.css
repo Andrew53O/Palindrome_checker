@@ -58,3 +58,12 @@ footer
     text-align: right;
     text-transform: uppercase;
 }
+
+.change_input
+{
+    position: absolute;
+    top: 380px;
+    left: 210px;
+
+    font-size: 20px;
+}
