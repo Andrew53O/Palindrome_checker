@@ -40,3 +40,25 @@ by using this code
 
     })
 ```
+
+- CSS selector
+
+```css
+.className {
+  /* CSS rules for the class */
+}
+
+#idName {
+  /* CSS rules for the ID */
+}
+
+.parentClass .childClass {
+  /* CSS rules for the child class */
+}
+
+.parentClass > .childClass {
+ /* CSS rules for the direct child class */
+}
+
+and many other CSS selector
+

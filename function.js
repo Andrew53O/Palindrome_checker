@@ -63,14 +63,13 @@ window.addEventListener("DOMContentLoaded", (event) =>
 
   console.log(changeInput);
 
-
+  // when clicked
   changeInput.addEventListener("click", switchInput);
 
   // change from submit -> enter
   function switchInput()
   {
-    // to do change input only using enter 
-    // display:none
+
     const makeNone = document.getElementById("input_v1");
 
     // get the default input
@@ -78,17 +77,33 @@ window.addEventListener("DOMContentLoaded", (event) =>
 
     console.log(makeNone);
 
-    makeNone.style.display = "none";
-
-    canEnter.addEventListener("keydown", (the_key) =>
+    if( makeNone.style.display != "none")
     {
-      // keyCode properties deprecated, but it is still works, it works
-      if(the_key.key == "Enter")
+      console.log("kenapa masuk sini ya?")
+      makeNone.style.display = "none";
+
+      // if the user enter using input
+      canEnter.addEventListener("keydown", (the_key) =>
       {
-        // 
-        get_user_input();
-      }
-    }) 
+        
+        // keyCode properties deprecated, but it is still works, it works
+        if(the_key.key == "Enter")
+        {
+          console.log("apa disin?")
+          get_user_input();
+        }
+      }) 
+    }
+    else
+    {
+      // changed but in submit, you can enter to submit
+      console.log("masuk sini");
+      makeNone.style.display = "block";
+      console.log(makeNone.style.display)
+    }
+    
+
+    
   }
 
 
